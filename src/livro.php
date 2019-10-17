@@ -20,7 +20,8 @@
 
       if($livrosRetornados->num_rows > 0) {
         return $livrosRetornados;
-      } else {
+      }
+      else {
         return false;
       }
 
